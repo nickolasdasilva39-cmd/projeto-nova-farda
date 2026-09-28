@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farda Nova | Cadastro</title>
-   <link rel="stylesheet" href="style.css">
+    <title>Farda Nova | Cadastro de Colaborador</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header class="topbar">
@@ -16,8 +16,8 @@
         <section class="form-container">
             <div class="section-heading">
                 <span class="tag">ETAPA 1</span>
-                <h1>Cadastro do cidadão</h1>
-                <p>Preencha os dados abaixo para continuar no sistema acadêmico.</p>
+                <h1>Cadastro de Colaborador</h1>
+                <p>Preencha os dados do novo funcionário para liberar a requisição de fardamento.</p>
             </div>
 
             <form id="cadastroForm" novalidate>
@@ -33,18 +33,17 @@
                     </label>
 
                     <label>
-                        Sexo
+                        Sexo (Para modelagem do fardamento)
                         <select id="sexo" name="sexo" required>
                             <option value="">Selecione</option>
                             <option>Feminino</option>
                             <option>Masculino</option>
-                            <option>Outro</option>
-                            <option>Prefiro não informar</option>
+                            <option>Unissex</option>
                         </select>
                     </label>
 
                     <label>
-                        E-mail
+                        E-mail Corporativo
                         <input type="email" id="email" name="email" required>
                     </label>
 
@@ -95,7 +94,7 @@
 
                 <div class="form-footer">
                     <a class="btn btn-secondary" href="index.html">Cancelar</a>
-                    <button class="btn btn-primary" type="submit">Continuar</button>
+                    <button class="btn btn-primary" type="submit">Continuar para Kits</button>
                 </div>
                 <p class="form-message" id="formMessage"></p>
             </form>
@@ -103,9 +102,9 @@
     </main>
 
     <footer>
-        <p>Farda Nova &copy; 2026 — Projeto acadêmico</p>
+        <p>Farda Nova &copy; 2026 — Projeto Acadêmico Front-End</p>
     </footer>
 
-  <script src="script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
