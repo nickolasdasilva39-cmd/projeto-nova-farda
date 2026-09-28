@@ -1,102 +1,30 @@
-# Farda Nova — Sistema de Alistamento Militar
+# Farda Nova — Gestão de Fardamento Corporativo
 
-Projeto acadêmico de uma interface web para simulação de um sistema de alistamento militar.
+Projeto acadêmico de desenvolvimento front-end focado na resolução de um problema real de gestão empresarial: o controle, requisição e distribuição de uniformes e EPIs para colaboradores de uma empresa.
 
-## Como executar
+## Acesso ao Sistema
 
-1. Extraia o arquivo ZIP.
-2. Abra a pasta `FardaNova`.
-3. Entre na pasta `html`.
-4. Abra `index.html` no navegador.
+O sistema cumpre os requisitos de deploy e está publicado na web.
+- **Link de Acesso Público:** [COLOQUE_SEU_LINK_DO_GITHUB_PAGES_AQUI]
+- **Repositório:** [COLOQUE_SEU_LINK_DO_REPOSITORIO_AQUI]
 
-Também é possível abrir a pasta do projeto no Visual Studio Code e usar uma extensão como Live Server.
+## Estrutura do Projeto
 
-## Estrutura
+- `html/index.html` — Tela inicial institucional do sistema corporativo.
+- `html/cadastro.html` — Formulário de cadastro de novos colaboradores.
+- `html/alistamento.html` — Requisição de Kits de Fardamento.
+- `html/servicos.html` — Portal do Colaborador (trocas, status e agendamentos).
+- `css/style.css` — Estilos e responsividade com Flexbox.
+- `js/script.js` — Navegação, validação e manipulação dinâmica (localStorage).
 
-- `html/index.html` — tela inicial.
-- `html/cadastro.html` — cadastro do cidadão.
-- `html/alistamento.html` — modalidades de alistamento.
-- `html/servicos.html` — serviços para quem já se alistou.
-- `css/style.css` — estilos e responsividade.
-- `js/script.js` — navegação, loading, validação e armazenamento local.
+## Fluxo das 3 Funcionalidades Obrigatórias
 
-## Fluxo
+1. **Cadastro de Colaborador:** Formulário para registrar os dados do funcionário.
+2. **Requisição de Kits:** Painel interativo para o colaborador selecionar qual kit de fardamento necessita (Tático, Inverno, Limpeza, etc.).
+3. **Portal de Serviços/Status:** Área interativa para acompanhar o andamento da requisição ou solicitar troca de peças danificadas.
 
-### 1. Tela inicial
-
-Apresenta:
-- importância do alistamento para o cidadão;
-- relação com a sociedade e a nação;
-- termos e responsabilidades;
-- botão "Quero me alistar";
-- botão "Já me alistei".
-
-### 2. Quero me alistar
-
-Abre o cadastro com:
-- nome completo;
-- data de nascimento;
-- e-mail;
-- telefone;
-- sexo;
-- CPF;
-- RG;
-- endereço;
-- cidade;
-- estado;
-- CEP.
-
-Após o cadastro, o sistema abre as modalidades:
-- Alistamento feminino;
-- Alistamento masculino;
-- Moro no exterior;
-- Problemas de saúde.
-
-### 3. Já me alistei
-
-Abre:
-- Acompanhar Alistamento;
-- Locais de atendimento;
-- Solicitar certificado de dispensa;
-- Certificados Militares;
-- Validar certificado.
-
-## Cadastro
-
-Nesta versão, o cadastro é apenas uma simulação local. Os dados são armazenados no `localStorage` do navegador. Não há banco de dados nem envio de dados para servidor.
-
-## Aviso
-
-Este projeto é acadêmico. Não representa um sistema oficial do Governo Federal ou das Forças Armadas e não substitui os canais oficiais de alistamento.
-
-## Atualização semanal / commits
-
-Sugestão de histórico de desenvolvimento:
-
-### Semana 1
-- Estrutura inicial do projeto.
-- Tela inicial.
-- Identidade visual.
-- Navegação principal.
-
-### Semana 2
-- Formulário de cadastro.
-- Validação dos campos.
-- Armazenamento local.
-
-### Semana 3
-- Modalidades de alistamento.
-- Área de serviços.
-- Responsividade.
-- Ajustes finais de interface.
-
-## Próximas etapas
-
-- Banco de dados;
-- autenticação;
-- integração com backend;
-- consultas reais;
-- integração com APIs, se aplicável;
-- melhoria da acessibilidade;
-- testes;
-- documentação técnica.
+## Requisitos Técnicos Atendidos
+- HTML5 Semântico e CSS3 puro (com Flexbox).
+- JavaScript Vanilla (sem frameworks).
+- Manipulação dinâmica via JavaScript.
+- Versionamento no GitHub e hospedagem pública.
